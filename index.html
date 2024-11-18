@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+
+    .container{
+      height: 100vh;
+    }
+    .grid-container{
+      display: grid;
+      width: 768px;
+      height: 768px;
+      background-color:#F0F1EC;
+      margin: 0px 300px ;
+      grid-template-columns: 1fr 2fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+    }
+    .red{
+      height: 414px;
+      width: 320px;
+      background-color: #E72F24;
+      border-right: 7px solid #232629;
+      border-bottom: 7px solid #232629;
+      gap: 9px;
+    }
+    .top-right{
+      height: 414px;
+      width: 388px;
+      border-bottom: 7px solid #232629;
+      gap:9px;
+    }
+    .blue{
+      background-color:#004592;
+      width: 50px;
+      height: 130px;
+      border-bottom: 10px solid #232629;
+      border-top: 7px solid #232629;
+      border-left: 7px solid #232629;
+      grid-column-start: 3;
+      grid-row-start: -3;
+      margin-top: -7px;
+      margin-left: -3px;
+    }
+    .bottom-left{
+      border-right: 7px solid #232629;
+      border-bottom: 7px solid #232629;
+      width: 320px;
+      height: 320px;
+      grid-column-start: 1;
+    }
+    .bottom-right{
+      width: 380px;
+      height: 320px;
+      border-right: 7px solid #232629;
+      border-bottom: 7px solid #232629; 
+    }
+    .yellow{
+      width: 198px;
+      background-color: #F9D01E;
+      border-left: 7px solid #232629;
+      border-right: 7px solid black;
+      grid-column-start: -3;
+      margin-left: -6px;
+    }
+    .black{
+      width: 198px;
+      background-color: #35383b;
+      border-right: 7px solid #232629;
+      border-left: 5px solid #232629;
+      grid-column-start: 3;
+      margin-left: -211px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+   <div class="container">
+    <div class="grid-container">
+     <div class="red"></div>
+     <div class="top-right"></div>
+     <div class="bottom-left"></div>
+     <div class="bottom-right"></div>
+     <div class="yellow"></div>
+     <div class="black"></div>
+     <div class="blue"></div>
+    </div>
+   </div>
+</body>
+
+</html>

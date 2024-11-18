@@ -1,0 +1,81 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://127.0.0.1:3000/index.html
+Subject: Mondrian Project
+Date: Mon, 18 Nov 2024 17:10:24 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--jq5CjEAxSa9EwnNWxYdlriIRKIgRDx0yW4lbIfG3IA----"
+
+
+------MultipartBoundary--jq5CjEAxSa9EwnNWxYdlriIRKIgRDx0yW4lbIfG3IA----
+Content-Type: text/html
+Content-ID: <frame-3A8E9AB650399B9BD5E80E2955EAC2ED@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:3000/index.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-35bc24ef-266b-441f-a568-d86ce1d4f746@mhtml.blink" />
+ =20
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">
+  <title>Mondrian Project</title>
+ =20
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+   <div class=3D"container">
+    <div class=3D"grid-container">
+     <div class=3D"red"></div>
+     <div class=3D"top-right"></div>
+     <div class=3D"bottom-left"></div>
+     <div class=3D"bottom-right"></div>
+     <div class=3D"yellow"></div>
+     <div class=3D"black"></div>
+     <div class=3D"blue"></div>
+    </div>
+   </div>
+
+
+</body></html>
+------MultipartBoundary--jq5CjEAxSa9EwnNWxYdlriIRKIgRDx0yW4lbIfG3IA----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-35bc24ef-266b-441f-a568-d86ce1d4f746@mhtml.blink
+
+@charset "utf-8";
+
+.container { height: 100vh; }
+
+.grid-container { display: grid; width: 768px; height: 768px; background-co=
+lor: rgb(240, 241, 236); margin: 0px 300px; grid-template-columns: 1fr 2fr =
+1fr; grid-template-rows: 1fr 1fr 1fr; }
+
+.red { height: 414px; width: 320px; background-color: rgb(231, 47, 36); bor=
+der-right: 7px solid rgb(35, 38, 41); border-bottom: 7px solid rgb(35, 38, =
+41); gap: 9px; }
+
+.top-right { height: 414px; width: 388px; border-bottom: 7px solid rgb(35, =
+38, 41); gap: 9px; }
+
+.blue { background-color: rgb(0, 69, 146); width: 50px; height: 130px; bord=
+er-bottom: 10px solid rgb(35, 38, 41); border-top: 7px solid rgb(35, 38, 41=
+); border-left: 7px solid rgb(35, 38, 41); grid-column-start: 3; grid-row-s=
+tart: -3; margin-top: -7px; margin-left: -3px; }
+
+.bottom-left { border-right: 7px solid rgb(35, 38, 41); border-bottom: 7px =
+solid rgb(35, 38, 41); width: 320px; height: 320px; grid-column-start: 1; }
+
+.bottom-right { width: 380px; height: 320px; border-right: 7px solid rgb(35=
+, 38, 41); border-bottom: 7px solid rgb(35, 38, 41); }
+
+.yellow { width: 198px; background-color: rgb(249, 208, 30); border-left: 7=
+px solid rgb(35, 38, 41); border-right: 7px solid black; grid-column-start:=
+ -3; margin-left: -6px; }
+
+.black { width: 198px; background-color: rgb(53, 56, 59); border-right: 7px=
+ solid rgb(35, 38, 41); border-left: 5px solid rgb(35, 38, 41); grid-column=
+-start: 3; margin-left: -211px; }
+------MultipartBoundary--jq5CjEAxSa9EwnNWxYdlriIRKIgRDx0yW4lbIfG3IA------
